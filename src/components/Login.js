@@ -33,7 +33,7 @@ const Login = () => {
                 {errorMessage ? (
                     <p className="errorMsg login-error">{errorMessage}</p>
                 ) : (
-                    <div>
+                    <div className="user-info">
                         <p className="successMsg">{successMessage}</p>
 
                         {userDetails && (

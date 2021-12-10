@@ -1,5 +1,5 @@
-$base-color: #e67e22;
-$blue-color: #22ac11;
+$base-color: #ee6c4d;
+$blue-color: #42b030;
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@ $blue-color: #22ac11;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: $base-color;
 }
 
@@ -80,9 +80,15 @@ h1 {
   margin: 3rem auto;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .errorMsg {
   max-width: 350px;
-  color: #f21e08;
+  color: #d9463b;
   padding: 2px 0;
   margin-top: 2px;
   font-size: 14px;
@@ -102,7 +108,7 @@ h1 {
 }
 
 .form-control.input-error {
-  border: 2px solid #f21e08;
+  border: 2px solid #d9463b;
 }
 
 .user-details {
@@ -136,6 +142,10 @@ h1 {
       padding-top: 9%;
     }
   }
+}
+
+.user-info {
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 400px) {
